@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/dotty/80/000000/memories.png"/>
+   
+    <title>Random number</title>
+</head>
+<body>
+    <h1>RANDOM NUMBER GENERATOR(Integer numbers)</h1>
+    <div class='container'>
+        
+        <div class='result'>
+            
+        </div>
+        
+        <div class='max'>
+            <form>
+               
+                <input type="number" id="max" pattern="[0-9]{10}" placeholder="Maxim" required step="1"><br><br>
+                
+              </form>
+        </div>
+        <div class='min'>
+            <form>
+                
+                <input type="number" pattern="[0-9]{10}" id="min" placeholder="Minim" required ><br><br>
+                
+              </form>
+        </div>
+        <div class='button-calculate'>
+            <button class='generate'>GENERATE</button>
+        </div>
+    </div>
+   
+    <script src='script.js'></script>
+    <script src='animationGenerate.js'></script>
+</body>
+</html>
